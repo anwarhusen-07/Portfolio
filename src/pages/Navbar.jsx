@@ -52,6 +52,8 @@ function Navbar({ activeSection, setActiveSection }) {
           </button>
         </li>
 
+
+
         <li className="navbar-item">
           <button
             className={
