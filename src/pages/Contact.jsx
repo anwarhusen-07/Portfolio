@@ -2,12 +2,7 @@ import React, { useEffect, useState } from "react";
 import SendIcon from "@mui/icons-material/Send";
 import { Button, Snackbar, Alert, CircularProgress } from "@mui/material"; // Import Snackbar and Alert
 import emailjs from "emailjs-com";
-import {
-  GitHub,
-  LinkedIn,
-  WhatsApp,
-} from "@mui/icons-material";
-
+import { GitHub, LinkedIn, WhatsApp } from "@mui/icons-material";
 
 function Contact() {
   const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
@@ -76,7 +71,7 @@ function Contact() {
           message: "Failed to send message. Try again later.",
           severity: "error",
         }); // Show error toast
-      }
+      },
     );
   };
 
@@ -100,8 +95,6 @@ function Contact() {
           marginBottom: "2rem",
         }}
       >
-
-
         <li className="social-item">
           <a
             href="https://www.linkedin.com/in/anwarhusen-imambhai/"
@@ -116,7 +109,12 @@ function Contact() {
           </a>
         </li>
         <li className="social-item">
-          <a href="https://wa.me/918722965045" className="social-link">
+          <a
+            href="https://api.whatsapp.com/send?phone=918722965045"
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <WhatsApp style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>
