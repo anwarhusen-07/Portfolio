@@ -16,7 +16,7 @@ export const educationData = [
   {
     id: 3,
     title: "Matriculation",
-    period: "2020 - 2022 ",
+    period: "2019 - 2020 ",
     description: "SFS COMP JUNIOR COLLEGE, SUREBAN",
     percentage: "84.16%",
   },
