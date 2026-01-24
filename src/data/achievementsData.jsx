@@ -12,7 +12,7 @@ export const achievementData = [
   {
   title: "Special Achievement Award – 6th Semester 🏆",
   category: "Tech",
-  date: "2025",
+  date: "May 17, 2025",
   desc: "Honored with the Special Achievement Award for outstanding overall performance in the 6th semester, including academic excellence, victories in inter-KLE and national competitions, active participation in extracurricular activities, and demonstrating leadership and discipline.",
  images: [images.SAAPic3, images.SAA3],
 },
@@ -50,13 +50,13 @@ desc: "At the inter-KLE events hosted by KLE BCA Mahalingpur, our team’s combi
 {
   title: "Special Achievement Award – 2nd Semester 🏆",
   category: "Tech",
-  date: "2024",
+  date: "September 9, 2023",
   desc: "Awarded the Special Achievement Award for outstanding overall performance in the 2nd semester, including excellence in academics, active participation in inter-KLE and national-level events, leadership in class activities, and maintaining discipline throughout the semester.",
   images: [images.SAAPic, images.SAA1],
 },{
   title: "Special Achievement Award – 4th Semester 🏆",
   category: "Tech",
-  date: "2024",
+  date: "October 25, 2024",
   desc: "Received the Special Achievement Award for exemplary performance in the 4th semester, recognizing achievements in academics, sports, cultural events, contributions in team projects, and consistent discipline and dedication.",
  images: [images.SAAPic2, images.SAA2],
 },
