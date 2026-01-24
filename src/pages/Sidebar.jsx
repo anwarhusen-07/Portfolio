@@ -28,7 +28,7 @@ function Sidebar() {
         </figure>
 
         <div className="info-content">
-          <h1 className="name" style={{fontSize: "1.1rem"}} title="Anwarhusen Imambhai">
+          <h1 className="name" style={{fontSize: "1rem"}} title="Anwarhusen Imambhai">
             Anwarhusen Imambhai
           </h1>
 
