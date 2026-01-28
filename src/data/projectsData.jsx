@@ -8,37 +8,7 @@ export const categories = [
 export const projects = [
  
   // Web Development
-  {
-  title: "The Great Amazon Forest",
-  category: "Web Development",
-  download: null,
-  images: [
-    images.amazonH,
-    images.animals,
-    images.birds,
-    images.insects,
-    images.pics,
-    images.news,
-    images.forest,
-    images.river,
-    
 
-
-  ],
-  live: "https://thegreatamazon.vercel.app",
-  repo: "https://github.com/anwarhusen-07/AmazonForeset.git",
-  video: null,
-  alt: "The Great Amazon Forest",
-desc: `A visually rich website created to spread awareness about the Amazon Rainforest and its global importance.
-
-• Includes structured sections explaining the Amazon Rainforest and Amazon River  
-• Features a species section highlighting animals, birds, and insects  
-• Contains a photo gallery with images and related facts  
-• Presents research-based content on environmental importance  
-• Includes an Amazon news section and an explore video  
-• Designed with clean UI, organized layout, and smooth navigation`,
-
-},
 
 {
   title: "ShehwarBot",
@@ -184,6 +154,37 @@ Built using HTML, CSS, and JavaScript with a focus on usability and smooth gamep
    star animations ✨ for winning sequences, and clear instructions for easy play. Built with HTML, CSS, and JavaScript, it offers smooth gameplay, an intuitive design, and a polished professional look 🌐.`
 }
 ,
+  {
+  title: "The Great Amazon Forest",
+  category: "Web Development",
+  download: null,
+  images: [
+    images.amazonH,
+    images.animals,
+    images.birds,
+    images.insects,
+    images.pics,
+    images.news,
+    images.forest,
+    images.river,
+    
+
+
+  ],
+  live: "https://thegreatamazon.vercel.app",
+  repo: "https://github.com/anwarhusen-07/AmazonForeset.git",
+  video: null,
+  alt: "The Great Amazon Forest",
+desc: `A visually rich website created to spread awareness about the Amazon Rainforest and its global importance.
+
+• Includes structured sections explaining the Amazon Rainforest and Amazon River  
+• Features a species section highlighting animals, birds, and insects  
+• Contains a photo gallery with images and related facts  
+• Presents research-based content on environmental importance  
+• Includes an Amazon news section and an explore video  
+• Designed with clean UI, organized layout, and smooth navigation`,
+
+},
 {
   title: "Rock Paper Scissor (Old)",
   category: "Web Development",
@@ -209,6 +210,7 @@ Project Features:
 This project focuses on implementing core JavaScript logic and real-time score handling in a simple and clean interface.`,
 }
 ,
+
 {
   title: "Spotify Clone (Home Page)",
   category: "Web Development",
